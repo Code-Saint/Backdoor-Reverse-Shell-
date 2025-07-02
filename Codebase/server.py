@@ -3,7 +3,7 @@ import socket
 import json
 import base64
 
-LISTEN_IP = "192.168.251.175"
+LISTEN_IP = "" #Server ip
 LISTEN_PORT = 4444
 
 def reliable_send(data):
