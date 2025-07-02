@@ -1,4 +1,4 @@
-# 🐚 Backdoor (Reverse Shell) – Ethical Hacking Project
+# 🐚 Backdoor (Reverse Shell)
 
 ## 🔍 Overview
 
@@ -26,7 +26,5 @@ This project implements a **custom reverse shell** that allows remote control of
 - `subprocess` – to execute OS-level commands
 - `os`, `base64`, `time` – for file handling, encoding, and reconnection logic
 
----
 
-## 📂 File Structure
 
