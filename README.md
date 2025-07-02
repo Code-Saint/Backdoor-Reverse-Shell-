@@ -26,5 +26,22 @@ This project implements a **custom reverse shell** that allows remote control of
 - `subprocess` – to execute OS-level commands
 - `os`, `base64`, `time` – for file handling, encoding, and reconnection logic
 
+---
 
+## 🚀 How It Works
 
+1. **Run `server.py`** on the attacker's system (waiting for connections).
+2. **Run `client.py`** on the victim system (connects to attacker's IP and port).
+3. The server can now:
+   - Execute terminal commands
+   - Send or receive files
+   - Change working directories
+   - Maintain session even if disconnected (auto reconnect)
+
+---
+
+## 🛠 Usage
+
+### Run the server (C2):
+```bash
+python3 server.py
